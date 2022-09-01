@@ -8,15 +8,7 @@
 #include <ctype.h>
 #include <math.h>
 
-/**
- * struct stack_s - doubly linked list representation of a stack (or queue)
- * @n: integer
- * @prev: points to the previous element of the stack (or queue)
- * @next: points to the next element of the stack (or queue)
- *
- * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO
- */
+
 
 typedef struct stack_s
 {
@@ -25,14 +17,7 @@ typedef struct stack_s
 	struct stack_s *next;
 } stack_t;
 
-/**
- * struct instruction_s - opcode and its functions
- * @opcode: the opcode
- * @f: function to handle the opcode
- *
- * Description: opcode and its function
- * for stack, queues, LIFO, FIFO
- */
+
 
 typedef struct instruction_s
 {
@@ -40,16 +25,7 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-/**
- * struct pack - transport getline and line_number
- * @cmd: current line in operation
- * @n: current line number
- * @fdcode: to close globally the opened file
- * @mode: 0 stack, 1 queue
- *
- * Description: whole line in manipulation and his
- * position
- */
+
 struct pack
 {
 	char *cmd;
