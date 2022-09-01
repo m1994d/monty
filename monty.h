@@ -9,7 +9,7 @@
 #include <math.h>
 
 /**
- * Description: doubly linked list node structure
+ * Description: (DLL) doubly linked list node structure
  * for stack, queues, LIFO, FIFO
  */
 
