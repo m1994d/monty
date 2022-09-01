@@ -26,6 +26,28 @@ pall$
 julien@ubuntu:~/monty$
 ```
 
+Monty byte code files can contain blank lines (empty or made of spaces only, and any additional text after the opcode or its required argument is not taken into account:
+
+```
+julien@ubuntu:~/monty$ cat -e bytecodes/001.m
+push 0 Push 0 onto the stack$
+push 1 Push 1 onto the stack$
+$
+push 2$
+  push 3$
+                   pall    $
+$
+$
+                           $
+push 4$
+$
+    push 5    $
+      push    6        $
+$
+pall This is the end of our program. Monty is awesome!$
+julien@ubuntu:~/monty$
+```
+
 ### Made by Marlon Diaz for Holberton School Colombia.
 
 ![This is a image](https://myoctocat.com/assets/images/base-octocat.svg)
