@@ -3,7 +3,7 @@
 #Compilation
 
 ```
-___gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o monty___
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o monty
 ```
 
 #The monty lenguage
