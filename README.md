@@ -12,6 +12,19 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o monty
 Monty byte code files Files containing Monty byte codes usually have the _.m_ extension. most of the industry uses this standard but it is not required by the specification of the lenguage.
 There is not more than one instrution per line. There can be any number of spaces before or after the opcode and its argument.
 
+```
+julien@ubuntu:~/monty$ cat -e bytecodes/000.m
+push 0$
+push 1$
+push 2$
+  push 3$
+                   pall    $
+push 4$
+    push 5    $
+      push    6        $
+pall$
+julien@ubuntu:~/monty$
+```
 
 ### Made by Marlon Diaz for Holberton School Colombia.
 
