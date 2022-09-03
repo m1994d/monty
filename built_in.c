@@ -14,7 +14,7 @@ void built_in(stack_t **head)
 		{"push", push}, {"pall", pall},
 		{"pint", pint}, {"pop", pop},
 		{"swap", swap}, {"add", add},
-		{"nop", nop}, {"sub", sub},
+		{"nop", nop}, {"sub", },
 
 };
 
