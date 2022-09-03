@@ -22,7 +22,7 @@ void swap(stack_t **stack, unsigned int line_number)
 	{
 		freeStack(stack);
 		free(pack.cmd);
-		dprintf(2, "L%d: can't swap, stack too short", line_number);
+		printf(2, "L%d: can't swap, stack too short", line_number);
 		error("", 0, 1);
 	}
 }

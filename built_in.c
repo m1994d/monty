@@ -31,7 +31,7 @@ void built_in(stack_t **head)
 			return;
 		}
 
-	dprintf(2, "L%d: unknown instruction %s\n", pack.n, buffer);
+	printf(2, "L%d: unknown instruction %s\n", pack.n, buffer);
 	free(pack.cmd);
 	freeStack(head);
 	fclose(pack.fdcode);

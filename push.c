@@ -29,7 +29,7 @@ void push(stack_t **stack, unsigned int line_number)
 		add->n = atoi(value);
 	else
 	{
-		dprintf(2, "L%d: usage: push integer\n", line_number);
+		printf(2, "L%d: usage: push integer\n", line_number);
 		free(add), free(pack.cmd), freeStack(stack);
 		fclose(pack.fdcode), exit(EXIT_FAILURE);
 	}

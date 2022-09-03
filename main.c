@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	montyfd = fopen(argv[1], "r");
 	if (!montyfd)
 	{
-		dprintf(2, "Error: Can't open file %s", argv[1]);
+		printf(2, "Error: Can't open file %s", argv[1]);
 		error("", 0, 0);
 	}
 	pack.fdcode = montyfd;
