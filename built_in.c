@@ -15,11 +15,7 @@ void built_in(stack_t **head)
 		{"pint", pint}, {"pop", pop},
 		{"swap", swap}, {"add", add},
 		{"nop", nop}, {"sub", sub},
-		{"div", divs}, {"mul", mul},
-		{"mod", mod}, {"pchar", pchar},
-		{"pstr", pstr}, {"rotl", rotl},
-		{"rotr", rotr}, {"stack", stack},
-		{"queue", queue},
+
 };
 
 	int i = sizeof(ops) / sizeof(ops[0]); /* lenght of ops array */
