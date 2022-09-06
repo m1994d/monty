@@ -1,4 +1,4 @@
-# holbertonschool-monty
+monty
 
 ## Compilation
 
