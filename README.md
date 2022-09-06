@@ -51,6 +51,6 @@ pall This is the end of our program. Monty is awesome!$
 julien@ubuntu:~/monty$
 ```
 
-### Made by Marlon Diaz for Holberton School Colombia.
+### Made by Marlon Diaz.
 
 ![This is a image](https://myoctocat.com/assets/images/base-octocat.svg)
